@@ -1,18 +1,14 @@
-<label>Enter User Name</label>
-<!-- <input 
-  type="text"
-  class="form-control" 
-  (input)="onUpdateServerName($event)">
-  -->
+<label>Enter username</label>
+
 <input 
   type="text"
   class="form-control" 
-  [(ngModel)]="userName">
+  [(ngModel)]="username">
 
 <button
   class="btn btn-primary"
-  [disabled]="!userName"
-  (click)="resetUserName()">Reset User Name</button>
+  [disabled]="!username"
+  (click)="onResetUserName()">Reset</button>
 
-<p>{{ userName }}</p>
+<p>{{ username }}</p>
   

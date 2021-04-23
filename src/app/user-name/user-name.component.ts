@@ -7,12 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserNameComponent implements OnInit {
 
-  userName = "";
+  username = "";
 
   constructor() { }
 
-  resetUserName(): void {
-    this.userName = "";
+  onResetUserName(): void {
+    this.username = "";
   }
 
   ngOnInit(): void {
