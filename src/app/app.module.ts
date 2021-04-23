@@ -6,14 +6,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
-import { UserNameComponent } from './user-name/user-name.component';
+import { DisplayButtonComponent } from './display-button/display-button.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
     ServersComponent,
-    UserNameComponent,
+    DisplayButtonComponent,
   ],
   imports: [
     BrowserModule,
